@@ -4,5 +4,7 @@ library("graphics")
 
 par(mfrow=c(1,1))
 par(mar=c(5.1,4.1,4.1,2.1))
+par(cex.axis=0.8)
+par(cex.lab=0.8)
 
 hist(DF$Global_active_power, col="red",xlab="Global active power (kilowatts)",main="Global Active Power")
